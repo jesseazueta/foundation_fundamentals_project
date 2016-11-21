@@ -52,7 +52,19 @@ header ul.social li.youtube a {background-image: url(../images/social_youtube.pn
   display: block;
 }
 
+.row h1{
+  color: #c53831;
+  font-family: 'Helvetica neue'
+}
 
+ul.tabs li a{
+  color:#000000;
+  font-weight: bold;
+}
+
+.tabs-content {
+  margin-bottom: 10px;
+}
 
 
 
