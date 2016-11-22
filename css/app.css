@@ -4,13 +4,7 @@ header {
   background-color: #f4f4f4;
   padding: 1em 0 .5em 0;
 }
-div.logo {
-  height:68px;
-  width:104px;
-  background-repeat: no-repeat;
-  margin-top: .5em;
-  float:left;
-}
+
 
 header a.tel {
 	font-size:1.3em;
@@ -91,6 +85,23 @@ h3 {
   font-weight:bold;
 }
 
+#phone {
+  float:none;
+}
+
+#checkbox {
+  margin-top: 10px;
+  float:left;
+}
+
+.cancel-anchor {
+  color: orange;
+}
+
+form {
+  margin-bottom: 15px;
+}
+
 
 
 
@@ -100,11 +111,6 @@ h3 {
 /* --------------------------------- TABLET CSS --------------------------------- */
 @media only screen and (min-width: 40.063em) {
 
-  div.logo {
-    height:102px;
-    width:157px;
-    margin-top: 1em;
-  }
 
   header a.tel {
   		font-size:1.6em;
@@ -151,10 +157,7 @@ h3 {
 
 /* --------------------------------- DESKTOP CSS --------------------------------- */
 @media only screen and (min-width: 64.063em) {
-  div.logo {
-    height:135px;
-    width:207px;
-  }
+
 
 
 
